@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Marwadi University - Department of Computer Engineering</title>
+  <style>
+    /* Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    /* Header */
+    header {
+      background: #004aad;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header h1 {
+      font-size: 2rem;
+    }
+
+    header h2 {
+      font-size: 1.2rem;
+      font-weight: 400;
+      color: #dce6f7;
+    }
+
+    /* Navigation */
+    nav {
+      background: #013b86;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+      gap: 20px;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: 500;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #ffcc00;
+    }
+
+    /* Main Content */
+    section {
+      max-width: 1000px;
+      background: white;
+      margin: 30px auto;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #004aad;
+      margin-bottom: 10px;
+      border-left: 5px solid #004aad;
+      padding-left: 10px;
+    }
+
+    p, li {
+      font-size: 1rem;
+      margin-bottom: 10px;
+    }
+
+    ul {
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* Image Gallery */
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    .gallery img {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 10px;
+      transition: transform 0.3s;
+    }
+
+    .gallery img:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer */
+    footer {
+      background: #013b86;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+
+    footer a {
+      color: #ffcc00;
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Marwadi University</h1>
+    <h2>Department of Computer Engineering</h2>
+  </header>
+
+  <nav>
+    <a href="#vision">Vision</a>
+    <a href="#mission">Mission</a>
+    <a href="#pso">Program Specific Outcomes</a>
+    <a href="#courses">Courses Offered</a>
+    <a href="#gallery">Image Gallery</a>
+    <a href="#recruiters">Top Recruiters</a>
+  </nav>
+
+  <section id="vision">
+    <h2>Vision</h2>
+    <p>
+      To impart quality technical education through research, innovation, and teamwork for creating
+      professionally superior and ethically strong manpower that meets global challenges of
+      engineering industries and research organizations.
+    </p>
+  </section>
+
+  <section id="mission">
+    <h2>Mission</h2>
+    <ul>
+      <li>Maintain state-of-the-art ICT enabled teaching and learning methodologies.</li>
+      <li>Enable graduates to become digital age literates, innovators, and professionals.</li>
+      <li>Provide skills, knowledge, and attitudes for success as engineers, leaders, and entrepreneurs.</li>
+      <li>Prepare graduates for lifelong learning and career challenges.</li>
+    </ul>
+  </section>
+
+  <section id="pso">
+    <h2>Program Specific Outcomes (PSOs)</h2>
+    <ol>
+      <li>Apply knowledge and competence in the design and development of computer-based systems addressing industrial and social needs.</li>
+      <li>Adapt to emerging technological advancements including cybersecurity, AR/VR, and IoT.</li>
+    </ol>
+  </section>
+
+  <section id="courses">
+    <h2>Courses Offered</h2>
+    <ul>
+      <li>B.Tech in Computer Engineering</li>
+      <li>B.Tech in Cyber Security</li>
+      <li>M.Tech in Computer Engineering</li>
+      <li>Ph.D. in Computer Science & Engineering</li>
+    </ul>
+  </section>
+
+  <section id="gallery">
+    <h2>Image Gallery of Events</h2>
+    <div class="gallery">
+    <img src="https://picsum.photos/400/250?random=1" alt="Event 1">
+    <img src="https://picsum.photos/400/250?random=2" alt="Event 2">
+    <img src="https://picsum.photos/400/250?random=3" alt="Event 3">
+    <img src="https://picsum.photos/400/250?random=4" alt="Event 4">
+    </div>
+  </section>
+
+  <section id="recruiters">
+    <h2>Top Recruiters</h2>
+    <ul>
+      <li>TCS</li>
+      <li>Infosys</li>
+      <li>Capgemini</li>
+      <li>Wipro</li>
+      <li>LTIMindtree</li>
+      <li>Cognizant</li>
+      <li>Reliance Industries</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Marwadi University - Department of Computer Engineering |
+    Designed by <a href="#">Kirtan Chauhan</a>
+  </footer>
+
+</body>
+</html>
